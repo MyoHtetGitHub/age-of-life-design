@@ -106,7 +106,7 @@ h1 {
   
   @keyframes fadeUpAnime {
     from {
-      transform: translateY(100px);
+      transform: translateY(50px);
   
       opacity: 0;
     }
@@ -117,7 +117,31 @@ h1 {
       opacity: 1;
     }
   }
+  /* fadeUp */
+
+/* .fadeUp {
+    animation-name: fadeUpAnime;
+    animation-duration: 1s;
   
+    opacity: 0;
+  
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeUpAnime {
+    from {
+      transform: translateY(50px);
+  
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateY(0);
+  
+      opacity: 1;
+    }
+  }
+   */
 @media screen and (max-width: 768px) {
     .new-list li {
         width: 100%;
