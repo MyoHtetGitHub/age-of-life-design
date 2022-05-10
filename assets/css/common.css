@@ -106,7 +106,7 @@ h1 {
   
   @keyframes fadeUpAnime {
     from {
-      transform: translateY(50px);
+      transform: translateY(100px);
   
       opacity: 0;
     }
@@ -117,6 +117,7 @@ h1 {
       opacity: 1;
     }
   }
+  
   
 @media screen and (max-width: 768px) {
     .new-list li {
@@ -176,6 +177,7 @@ h3 {
 
     align-items: center;
     justify-content: center;
+    
 }
 .list-img {
     width: 120px;
