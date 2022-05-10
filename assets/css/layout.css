@@ -322,7 +322,7 @@ nav
 }
 .nav-box ul.subnav-odr {
   position: absolute;
-  top: 60px;
+  top: 63px;
   left: 0;
   display: block;
   visibility: hidden;
@@ -424,6 +424,9 @@ bread crumb
   .nav-box ul li .gnav-txt.arr::after {
     right: 0px;
   }
+  
+}
+@media screen and (max-width: 950px) {
   .nav-box ul.subnav-odr {
     top: 85px;
   }
@@ -451,7 +454,7 @@ bread crumb
   }
 
   .container {
-    padding: 0 15px;
+    padding: 0 20px;
   }
   .content {
     padding: 120px 0 40px 0;
