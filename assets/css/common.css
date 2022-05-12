@@ -24,7 +24,11 @@ h1 {
 .new-img img {
     width: 100%;
 }
-
+.category-name{
+    font-size: 14px;
+    font-weight: bold;
+    color: #b30000;
+}
 .new-ttl {
     width: 100%;
     padding: 10px;
@@ -32,10 +36,10 @@ h1 {
     word-break: break-all;
     color: #b30000;
 }
-.new-title {
+/* .new-title {
     height: 60px;
     overflow: hidden;
-}
+} */
 .new-title a {
     font-size: 18px;
     font-weight: bold;
@@ -87,7 +91,7 @@ h1 {
 }
 .btn-more:after {
     position: absolute;
-    top: 55%;
+    top: 50%;
     right: 10px;
     content: "\2192";
     transition: .5s;
@@ -106,7 +110,7 @@ h1 {
   
   @keyframes fadeUpAnime {
     from {
-      transform: translateY(100px);
+      transform: translateY(50px);
   
       opacity: 0;
     }
@@ -129,6 +133,9 @@ h1 {
     }
     .new-block h1 {
         font-size: 25px;
+    }
+    .btn-more {
+        font-size: 14px;
     }
 
 }
@@ -240,24 +247,13 @@ h3 {
 }
 /*  */
 .video-gp .video-ttl {
-    height: 55px;
-    overflow: hidden;
-    line-height: 18px;
+    /* height: 55px;
+    overflow: hidden; */
+    /* line-height: 18px; */
     word-break: break-all;
 
     flex: 1;
 }
-/*.video-gp .video-v {
-    position: relative;
-}
-.video-gp .video-v::after {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 5px;
-    height: 5px;
-    content: ".";
-}*/
 .video-gp .new-list li {
     padding: 0 5px;
 }
@@ -429,7 +425,7 @@ Pagination
     padding: 0 0 50px 0;
 }
 .post-featured .btn-more{
-    width: 150px;
+    width: 170px;
     margin: 0;
     float: right;
 }
@@ -468,6 +464,9 @@ Pagination
 .photo-single-section .single-img p {
     font-size: 16px;
     line-height: 1.6;
+}
+.post-header h3 {
+    border-bottom: none;
 }
 
 @media screen and (max-width: 768px) {
