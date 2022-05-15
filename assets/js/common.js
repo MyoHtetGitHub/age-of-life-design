@@ -86,6 +86,32 @@ jQuery(function($) {
         $(window).scroll(function () {
           fadeAnime(); //スクロールに連動した動きの関数を呼ぶ
         });
+        $(function(){
+          var x = document.getElementById("search-box");
+          var add_nav_padding = document.getElementById("open-nav");
+          var winWidth = $(window).width();
+            if (winWidth < 768) {
+              $(document).on('click', '.search-sp', function(){
+                if (x.style.display === "none") {
+                  x.style.display = "block";
+                $(add_nav_padding).addClass("add-padding");
+                $(this).find('.fas').removeClass('fa-search').addClass('fa-times');
+                } else {
+                  x.style.display = "none";
+                  $(add_nav_padding).removeClass("add-padding");
+                  $(this).find('.fas').removeClass('fa-times').addClass('fa-search');
+
+                }              
+              });
+            }
+
+        });
+        // $(function(){
+        //   $(document).on('click', '.sp-menu-toggle', function(){
+        //       $(this).toggleClass("menu-on");
+        //       $(this).find(".subnav-box").slideToggle();
+        //     });
+        // });
       
  
     $(function() {

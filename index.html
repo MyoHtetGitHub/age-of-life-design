@@ -20,6 +20,7 @@
 	<link rel="icon" href="./assets/img/favicon.ico">
 	<link rel="stylesheet" href="./assets/css/import.css">
 	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/css/all.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css">
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
@@ -40,19 +41,25 @@
 					</a>
 					<div class="h-utility">
 						<ul>
-							<li class="h-search pr10 pc">
-								<form action="">
-								  <input type="text" class="h-searchbtn" placeholder="Search..." name="search">
-								  <button type="submit" class="h-submit"><img src="./assets/img/common/search_icon.png" alt=""></button>
-								</form>
-							</li>
-							<!-- <li class="pc">
-								<div class="contact-list">
-									<div class="link-icon"><a><img src="./assets/img/common/youtube.png"></a></div>
-									<div class="link-icon"><a><img src="./assets/img/common/facebook.png"></a></div>									
-									<div class="link-icon"><a><img src="./assets/img/common/twitter.png"></a></div>
+							<li>
+								<div class="search-box pc">
+									<input class="search-input" type="text" name="" placeholder="Search">
+									<a href="#" class="search-btn">
+									  <i class="fas fa-search"></i>
+									</a>     
 								</div>
-							</li> -->
+							</li>
+							<li class="sp">
+								<div class="search-sp search-btn">
+								    <i class="fas fa-search"></i>
+							    </div> 
+								<div class="search-box subnav-box" id="search-box">
+									<input class="search-input" type="text" name="" placeholder="Search">
+									<a href="#" class="search-btn">
+									  <i class="fas fa-search"></i>
+									</a>     
+								</div>
+						    </li>
 							<li class="sp">
 								<a href="javascript:void(0)" class="gmenu">
 									<div class="h-ico">
@@ -68,7 +75,8 @@
 					</div>
 				</div>
 			</div>
-			<nav class="nav-box">
+			 
+			<nav class="nav-box" id="open-nav">
 				<div class="container">				
 					<ul>
 						<li><a class="gnav-txt">Home</a></li>

@@ -505,3 +505,7 @@ Pagination
         margin: 0 -10px;
     }
 }    
+/* search page*/
+.search-page ul {
+    display: block;
+}
