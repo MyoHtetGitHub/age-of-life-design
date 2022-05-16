@@ -513,7 +513,7 @@ bread crumb
     padding: 0 20px;
   }
   .content {
-    padding: 140px 0 40px 0;
+    padding: 120px 0 40px 0;
   }
   .sec-ptop {
     padding-top: 25px;
@@ -692,7 +692,7 @@ bread crumb
   .nav-box {
     z-index: 2;
     position: absolute;
-    top: 85px;
+    top: 70px;
     /* opacity: 0; */
     display: none;
     width: 100%;
@@ -804,13 +804,32 @@ bread crumb
     top: 1px;
     right: 50px;
   } */
+  .search-btn {
+    color: #fff;
+    float: right;
+    background: #b30000;
+    width: 35px;
+    height: 35px;
+    border-radius: 0;
+    border: initial;
+    display: block;
+    justify-content: initial;
+    align-items: initial;
+    transition: 0;
+  }
+  .search-box form input {
+    width: calc(100% - 35px);
+    padding: 8px;
+  }
   .fa-search {
     font-size: 22px;
   }
   .search-box {
+    position: initial;
     display: none;
     top: 65px;
     width: 100%;
+    height: auto;
   } 
   /* .search-open {
     display: block;
@@ -818,14 +837,13 @@ bread crumb
   .add-padding {
     top: 135px;
   }
-  .search-box .search-input {
-    width: calc( 100% - 50px);
-    padding: 0 7px;
-    border-bottom: 1px solid #b30000;
+  .search-box .search-input {   
+    border-bottom: none;
   }
   .search-input {
     font-size: 16px;
-    line-height: 40px;
+    float: initial;
+    color: #fff;
   }
   .h-logo img {
     width: 170px;
